@@ -7,3 +7,7 @@
 .body {
     font-family: 'Varela Round', sans-serif;
 }
+
+:root {
+    --theme-color: #0cac8d;
+}

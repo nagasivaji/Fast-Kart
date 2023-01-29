@@ -6,10 +6,6 @@ import router from './router'
 import Antd from 'ant-design-vue';
 // import 'ant-design-vue/dist/antd.css';
 
-// BOOTSTRAP IMPORTS
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 const app = createApp(App);
 app.use(router);
 // app.use(Antd);

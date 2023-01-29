@@ -1,12 +1,15 @@
 <template>
   <div class="home">
-    <h1>HOME</h1>
+    <TopBar />
   </div>
 </template>
 
 <script>
+import TopBar from '../components/utils/TopBar.vue'
 export default {
   name: "Home",
-  components: {},
+  components: {
+    TopBar
+  },
 };
 </script>
